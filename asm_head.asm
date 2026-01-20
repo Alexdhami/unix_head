@@ -17,7 +17,7 @@ EACCES equ -13 ; permission denied
 
 
 ; messages to show in stdout.
-section .date
+section .data
     msg_generic_error db "error opening file. :(", 10
     len_generic_error equ $-msg_generic_error
 
